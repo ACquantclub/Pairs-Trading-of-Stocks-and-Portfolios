@@ -1,8 +1,6 @@
-# ML based and Pairs Trading on Stocks and Portfolios
+# Pairs Trading of Stocks & Portfolios
 
-The goal of this project was to understand and explore various trading strategies on stocks and portfolios made of stocks (along with risk-free assets). Further details of each of the project components are outlined in the specific README.md files in the respective folders. Here I am presenting a general overview for help in navigation.
-
-This project has 3 components:
+The goal of this project was to understand and explore various pairs trading strategies on stocks and portfolios (stocks + risk-free assets). Further details of each of the project components are outlined in the specific README.md files in the respective folders. Here we present a high-level overview for help in navigation.
 
 **1. ML-based Trading**
 
@@ -30,3 +28,4 @@ This project has 3 components:
 - Risk Analysis through Value at Risk (VaR) and Expected Shortfall (ES)
 - Fitting Copulas to model join distribution of returns **[_Spoiler:_ T-Copula was the best fit by a large margin because it was able to capture tail dependencies better than Gumbel Copula]**
 
+Base packages needed in order to execute the logic in this repository are listed with respective versions in `requirements.txt`.
